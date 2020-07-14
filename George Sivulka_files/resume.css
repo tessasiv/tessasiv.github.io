@@ -1,0 +1,338 @@
+/*!
+ * Start Bootstrap - Resume v5.0.7 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+
+
+#tessa-name {
+  color:lightblue !important;
+
+
+}
+
+body {
+  font-family: "Quicksand", Arial, sans-serif;
+  padding-top: 54px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.8;
+  color: rgba(0, 0, 0, 0.7); 
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: 17rem; 
+    font-size: 16px;
+  }
+}
+
+::-moz-selection { background-color: #f2f3f7  ; 
+} 
+::selection { background-color: #f2f3f7  ; 
+}
+
+.serif{
+
+    font-family: "Playfair Display", Georgia, serif;
+
+}
+
+.lightertext{
+    color: rgba(0,0,0,0.5);
+    
+
+}
+
+
+
+h1{
+  font-size: 5rem;
+  line-height: 5.5rem;
+    font-weight: 400;
+    
+
+    font-family: 'Libre Caslon Display', serif; 
+    /*font-family: "Playfair Display", Georgia, serif;*/
+
+}
+
+h2 {
+  font-size: 3rem;
+    /*font-family: "Playfair Display", Georgia, serif;    */
+    font-weight: 200;
+    font-family: 'Libre Caslon Display', serif;
+}
+
+
+h3,
+h4,
+h5,
+h6 {
+  color: #000;
+  font-family: 'Libre Caslon Text', serif;
+  font-weight: 400;
+  /*text-transform: uppercase;*/
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p.lead {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.subheading {
+   color: #000;
+  /*font-family: "Playfair Display", Georgia, serif;*/
+font-family: 'Libre Caslon Text', serif;
+
+  font-weight: 400;
+}
+
+.social-icons a {
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: grey !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  margin-right: 1rem;
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
+}
+
+.navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.social-icons a:hover {
+  background-color: #BD5D38;
+}
+
+.dev-icons {
+  font-size: 3rem;
+}
+
+.dev-icons .list-inline-item i:hover {
+  color: #2c98f0;
+}
+
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 800;
+  letter-spacing: 0.05rem;
+  /*text-transform: uppercase;*/
+        font-family: 'Libre Caslon Text', Georgia, serif;
+
+
+}
+
+#sideNav .navbar-toggler:focus {
+  outline-color: grey;
+}
+
+@media (min-width: 992px) {
+  #sideNav {
+    text-align: center;
+    position: fixed;
+    font-family: 'Libre Caslon Text', Georgia, serif;
+
+    top: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+  }
+  #sideNav .navbar-brand {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto auto 0;
+    padding: 0.5rem;
+  }
+  #sideNav .navbar-brand .img-profile {
+    max-width: 13rem;
+    max-height: 13rem;
+    border: 1px solid rgba(0, 0, 0, 0);
+  }
+  #sideNav .navbar-collapse {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+  }
+  #sideNav .navbar-collapse .navbar-nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item {
+    display: block;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    display: block;
+  }
+}
+
+section.resume-section {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  max-width: 75rem;
+}
+
+section.resume-section .resume-item .resume-date {
+  min-width: none;
+}
+
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh;
+  }
+  section.resume-section .resume-item .resume-date {
+    min-width: 18rem;
+  }
+}
+
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+
+.bg-primary {
+  background-color: lightblue !important;
+}
+
+.text-primary {
+  color: black !important;
+}
+
+a {
+  color: #337ab7;
+}
+
+a:hover, a:focus, a:active {
+  color: #2c98f0;
+}
+
+.img-fluid {
+    max-width: 20em;    
+    vertical-align: middle;
+}
+
+
+
+
+/*#cover {position: fixed; height: 100%; width: 100%; top:0; left: 0; background: #fff; z-index:9999;}
+
+
+#cover2 {display: none;}*/
+
+#cover {position: fixed; height: 100%; width: 100%; top:0; left: 0; background: #fff; z-index:9999;}
+
+.gooey {
+  z-index:9999;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 142px;
+  height: 40px;
+  margin: -20px 0 0 -71px;
+  background: #fff;
+  filter: contrast(20);
+}
+.gooey .dot {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 12px;
+  left: 15px;
+  filter: blur(4px);
+  background: #000;
+  border-radius: 50%;
+  transform: translateX(0);
+  animation: dot 2.8s infinite;
+}
+.gooey .dots {
+  transform: translateX(0);
+  margin-top: 12px;
+  margin-left: 31px;
+  animation: dots 2.8s infinite;
+}
+.gooey .dots span {
+  display: block;
+  float: left;
+  width: 16px;
+  height: 16px;
+  margin-left: 16px;
+  filter: blur(4px);
+  background: #000;
+  border-radius: 50%;
+}
+@-moz-keyframes dot {
+  50% {
+    transform: translateX(96px);
+  }
+}
+@-webkit-keyframes dot {
+  50% {
+    transform: translateX(96px);
+  }
+}
+@-o-keyframes dot {
+  50% {
+    transform: translateX(96px);
+  }
+}
+@keyframes dot {
+  50% {
+    transform: translateX(96px);
+  }
+}
+@-moz-keyframes dots {
+  50% {
+    transform: translateX(-31px);
+  }
+}
+@-webkit-keyframes dots {
+  50% {
+    transform: translateX(-31px);
+  }
+}
+@-o-keyframes dots {
+  50% {
+    transform: translateX(-31px);
+  }
+}
+@keyframes dots {
+  50% {
+    transform: translateX(-31px);
+  }
+}
+
+
+
